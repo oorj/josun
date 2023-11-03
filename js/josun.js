@@ -166,6 +166,13 @@ $(function() {
         $('.bg08').removeClass('on')
     })
     
+$(function() {
+    $('.btn').on('click', function(){
+        $('.hide-menu').toggleClass('on')
+        $('.up-btn').toggleClass('on')
+        $('.down-btn').toggleClass('on')
+    })
+})
 
 var myFullpage = new fullpage('#fullpage', {
     scrollOverflow:true,
